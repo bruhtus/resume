@@ -98,11 +98,11 @@ __Pavement Distress Detector__ <br>
 
 <!-- fa are fontawesome, ai are academicons -->
 <!-- - <a href="https://linktr.ee/bruhtus">https://linktr.ee/bruhtus</a><br /> -->
-<!-- - <a href="https://github.com/bruhtus">https://github.com/bruhtus</a><br /> -->
+- <a href="https://github.com/bruhtus">https://github.com/bruhtus</a><br />
 <!-- - <i class="fa fa-twitter"></i> <a href="http://twitter.com/diawanchris">twitter.com/diawanchris</a><br /> -->
-- <a href="https://bruhtus.github.io/posts/arch-installation-guide/">https://bruhtus.github.io/posts/arch-installation-guide</a><br />
-- <a href="https://bruhtus.github.io/posts/pyv/">https://bruhtus.github.io/posts/pyv</a><br />
-- <a href="https://bruhtus.github.io/posts/linux-ownership-permissions/">https://bruhtus.github.io/posts/linux-ownership-permissions</a><br />
+<!-- - <a href="https://bruhtus.github.io/posts/arch-installation-guide/">https://bruhtus.github.io/posts/arch-installation-guide</a><br /> -->
+<!-- - <a href="https://bruhtus.github.io/posts/pyv/">https://bruhtus.github.io/posts/pyv</a><br /> -->
+<!-- - <a href="https://bruhtus.github.io/posts/linux-ownership-permissions/">https://bruhtus.github.io/posts/linux-ownership-permissions</a><br /> -->
 - <a href="https://www.linkedin.com/in/bruhtus/">https://www.linkedin.com/in/bruhtus</a>
 
 ### Footer
