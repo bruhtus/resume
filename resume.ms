@@ -12,7 +12,7 @@
 .fam H
 .
 \# Margin.
-.nr PO 0.7i
+.nr PO 0.5i
 .nr HM 1.0i
 .nr FM 0.5i
 .nr LL 21c
