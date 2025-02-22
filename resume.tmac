@@ -1,0 +1,98 @@
+\# A template for Resumes
+\# Will Cashman 2022
+.
+\# Define colours
+.defcolor red rgb #cc3300
+.defcolor black rgb #000000
+.defcolor grey rgb #595959
+.
+\# Document title
+.de title
+\fB\s(30\\$*
+.LP
+..
+.
+\# Document subtitle
+.de subtitle
+\s(16\\$*
+.LP
+..
+.
+\# Section
+.de section
+.LP
+.sp 1
+\s(14\\$*
+.LP
+.sp -1
+\l'50'
+..
+.
+\# Item
+\# 1. Name
+\# 2. Location
+\# 3. Time
+\#
+\# Formatted as
+\# |{Company}, {Location}      {Time}|
+.de item
+.LP
+.sp 0.5
+\fB\s(12\\$1\fR \m[grey]\fI\s(12\\$2\m[]
+.DS R
+.sp -2
+\fB\s(11\\$3
+.DE
+..
+.
+.de list
+.IP "  \(bu" 3
+\s(11\\$*
+.br
+..
+.
+\# Formatted as
+\# |{Company}                  {Time}|
+.de company
+.LP
+.sp 0.5
+\fB\s(13\\$1
+.DS R
+.sp -2
+\fB\s(12\\$2
+.DE
+..
+.
+..
+.
+.de project
+.LP
+.sp 0.5
+\fB\s(12\\$1
+..
+.
+.de email
+\m[grey]
+\fBE-mailto:
+.pdfhref W -D mailto:\*[EMAIL] \*[EMAIL]
+\m[black]
+\h'0.1i'
+..
+.
+.de github
+Github:
+.pdfhref W -D https://github.com/\*[GITHUB] \*[GITHUB]
+\h'0.1i'
+..
+.
+.de youtube
+Youtube:
+.pdfhref W -D https://youtube.com/@\*[YOUTUBE] \*[YOUTUBE]
+\h'0.1i'
+..
+.
+.de linkedin
+LinkedIn:
+.pdfhref W -D https://www.linkedin.com/in/\*[LINKEDIN]/ Will Cashman
+\h'0.1i'
+..
