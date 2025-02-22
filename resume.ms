@@ -74,7 +74,7 @@
 .list Debugged data pipeline mechanism for accounting application.
 .item "Product Engineer 1" "Remote" "Feb 2022 - Jul 2023"
 .list Maintained backend and server of production application which focused on tracking training activies of fresh graduate and job portal from partners.
-.list Guided engineers in their offstack as backend and infrastructure engineer.
+.list Guided frontend engineers in their offstack as backend or infrastructure engineer.
 .item "Product Engineer Intern" "Remote" "Nov 2021 - Feb 2022"
 .list Improved docker compose file with named volumes for local development.
 .
