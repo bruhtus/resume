@@ -72,10 +72,10 @@
 .item "Product Engineer 2" "Remote" "Jul 2023 - Present"
 .list Contributed error handling implementation and shell script to trigger multiple services for local development in the first microservice project on company.
 .list Debugged data pipeline mechanism for accounting application.
-.item "Product Engineer 1" "Remote" "Feb 2022 - Jul 2023"
+.item "Product Engineer 1" "Remote" "Feb 2022 - Jun 2023"
 .list Maintained backend and server of production application which focused on tracking training activies of fresh graduate and job portal from partners.
 .list Guided frontend engineers in their offstack as backend or infrastructure engineer.
-.item "Product Engineer Intern" "Remote" "Nov 2021 - Feb 2022"
+.item "Product Engineer Intern" "Remote" "Nov 2021 - Jan 2022"
 .list Improved docker compose file with named volumes for local development.
 .
 .
