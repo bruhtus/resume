@@ -80,7 +80,7 @@
 .section CONFERENCES
 .
 .
-.item "Vim Conference Live" "Remote" "2021"
+.item "VimConf Live (rebrand as NeovimConf)" "Remote" "2021"
 .list Topic: A quick way to access normal mode command from insert mode.
 .code_url "Recording: https://youtu.be/u4PlG0bRn-0" https://youtu.be/u4PlG0bRn-0
 .
