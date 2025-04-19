@@ -1,9 +1,9 @@
 \# Resume
 .
 .ds EMAIL hibruhtus@gmail.com
-.ds GITHUB bruhtus
-.ds YOUTUBE bruhtusnull
 .ds BLOG bruhtus.github.io
+.ds GITHUB github.com/bruhtus
+.ds YOUTUBE youtube.com/@bruhtusnull
 .
 \# Define the page header as empty, thus removing page numbers.
 .ds CH
@@ -53,12 +53,10 @@
 .sp -3
 .DS R
 .nf
-\m[grey]
 .url "\*[EMAIL]" mailto:\*[EMAIL]
-\m[grey]
-.url "Github: \*[GITHUB]" "https://github.com/\*[GITHUB]"
 .url "Blog: \*[BLOG]" "https://\*[BLOG]"
-.url "Youtube: \*[YOUTUBE]" "https://youtube.com/@\*[YOUTUBE]"
+.url "Github: \*[GITHUB]" "https://\*[GITHUB]"
+.url "Youtube: \*[YOUTUBE]" "https://\*[YOUTUBE]"
 .DE
 .
 .ps 12
