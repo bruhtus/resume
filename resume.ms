@@ -13,7 +13,7 @@
 .
 \# Margin.
 .nr PO 0.5i
-.nr HM 1.0i
+.nr HM 0.5i
 .nr FM 0.5i
 .nr LL 21c
 .nr LL -\n[PO]
@@ -110,3 +110,5 @@
 .
 .
 .item "Bachelor of Mathematics" "Sepuluh Nopember Instutute of Technology, Indonesia" "2014 - 2020"
+.list Undergraduate thesis: Implementation of Single Shot Detector (SSD) Method To Classify Pavement Distress on Video Data.
+.code_url "Repo: https://github.com/bruhtus/pavement_distress_ssd" https://github.com/bruhtus/pavement_distress_ssd
