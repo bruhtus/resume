@@ -14,7 +14,7 @@
 \# Margin.
 .nr PO 0.5i
 .nr HM 0.5i
-.nr FM 0.5i
+.nr FM 0.0i
 .nr LL 21c
 .nr LL -\n[PO]
 .nr LL -0.5i
@@ -74,14 +74,14 @@
 .list Maintained backend and server of production application which focused on tracking training activies of fresh graduate and job portal from partners.
 .list Guided frontend engineers in their offstack as backend or infrastructure engineer.
 .item "Product Engineer Intern" "Remote" "Nov 2021 - Jan 2022"
-.list Improved docker compose file with named volumes for local development.
+.list Improved docker compose file with named volumes to prevent unnecessary increase storage space, especially in local development.
 .
 .
 .section CONFERENCES
 .
 .
 .item "Vim Conference Live" "Remote" "2021"
-.list A quick way to access normal mode command from insert mode.
+.list Topic: A quick way to access normal mode command from insert mode.
 .code_url "Recording: https://youtu.be/u4PlG0bRn-0" https://youtu.be/u4PlG0bRn-0
 .
 .
