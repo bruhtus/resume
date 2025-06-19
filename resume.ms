@@ -77,7 +77,7 @@
 .list Improved docker compose file with named volumes to prevent unnecessary increase storage space, especially in local development.
 .
 .
-.section CONFERENCES
+.section TALKS
 .
 .
 .item "VimConf Live (rebrand as NeovimConf)" "Remote" "2021"
