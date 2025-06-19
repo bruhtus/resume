@@ -63,7 +63,7 @@
 .sp 1.5
 .
 .
-.section WORK EXPERIENCE
+.section EXPERIENCE
 .
 .
 .company "Zero One Group" "Nov 2021 - Present"
