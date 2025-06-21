@@ -53,10 +53,9 @@
 .sp -3
 .DS R
 .nf
-.url "\*[EMAIL]" mailto:\*[EMAIL]
-.url "Blog: \*[BLOG]" "https://\*[BLOG]"
-.url "Github: \*[GITHUB]" "https://\*[GITHUB]"
-.url "Youtube: \*[YOUTUBE]" "https://\*[YOUTUBE]"
+.url "blog: \*[BLOG]" "https://\*[BLOG]"
+.url "email: \*[EMAIL]" mailto:\*[EMAIL]
+.url "youtube: \*[YOUTUBE]" "https://\*[YOUTUBE]"
 .DE
 .
 .ps 12
