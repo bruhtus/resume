@@ -12,12 +12,12 @@
 .fam H
 .
 \# Margin.
-.nr PO 0.5i
-.nr HM 0.5i
+.nr PO 0.3i
+.nr HM 0.3i
 .nr FM 0.0i
 .nr LL 21c
 .nr LL -\n[PO]
-.nr LL -0.5i
+.nr LL -0.3i
 .
 \# Code block
 .de code_begin
@@ -68,13 +68,17 @@
 .
 .company "Zero One Group" "Nov 2021 - Present"
 .item "Product Engineer 2" "Remote" "Jul 2023 - Present"
+.list Contributed simple SQL query builder using golang text template with pgx (golang PostgreSQL driver).
+.list Contributed fixing data pipeline mechanism for accounting application by correcting parent and child journal relationship when generate new report.
 .list Contributed error handling implementation and shell script to trigger multiple services for local development in the first microservice project on company.
-.list Debugged data pipeline mechanism for accounting application.
 .item "Product Engineer 1" "Remote" "Feb 2022 - Jun 2023"
-.list Maintained backend and server of production application which focused on tracking training activies of fresh graduate and job portal from partners.
-.list Guided frontend engineers in their offstack as backend or infrastructure engineer.
+.list Guided frontend engineers in their offstack as backend or infrastructure engineer in one of the maintenance project.
+.list Maintained application which focused on training activies and job portal by adjusting to new requirements and adding Prometheus exporter for Grafana dashboard.
+.list Helped application migration from GraphQL to REST API by creating REST API endpoint based on GraphQL resolver and create Amazon Web Service DynamoDB parser for migrating existing user data.
 .item "Product Engineer Intern" "Remote" "Nov 2021 - Jan 2022"
 .list Improved docker compose file with named volumes to prevent unnecessary increase storage space, especially in local development.
+.list Contributed to mentoring process by suggesting creating notes of what we learned.
+.code_url "Example: https://github.com/bruhtus/frontend-master-complete-intro-to-containers" https://github.com/bruhtus/frontend-master-complete-intro-to-containers
 .
 .
 .section TALKS
