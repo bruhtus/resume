@@ -89,8 +89,9 @@
 .code_url "Recording: https://youtu.be/u4PlG0bRn-0" https://youtu.be/u4PlG0bRn-0
 .
 .
-.section SKILLSETS
-.list Shell script, Vim script, Javascript, Typescript, Golang.
+.section SKILLS
+.skill "Programming language" "Golang, Javascript, Typescript."
+.skill "Tools" "Vim, Shell (Bash, Zsh, Dash), Git, PostgreSQL, Docker, Rsync."
 .
 .
 .section PROJECTS
