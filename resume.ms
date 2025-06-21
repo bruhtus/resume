@@ -13,7 +13,7 @@
 .
 \# Margin.
 .nr PO 0.3i
-.nr HM 0.3i
+.nr HM 0.5i
 .nr FM 0.0i
 .nr LL 21c
 .nr LL -\n[PO]
