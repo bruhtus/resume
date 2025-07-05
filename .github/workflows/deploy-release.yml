@@ -12,6 +12,7 @@ jobs:
       - name: Install groff package
         run: |
           sudo apt remove -y groff-base
+          sudo apt install -y groff
 
       - name: Build
         run: |
