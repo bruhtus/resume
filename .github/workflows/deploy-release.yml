@@ -6,8 +6,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout current refs
+      - name: Checkout current ref
         uses: actions/checkout@v4
 
       - name: Build
-        run: ls
+        run: |
+          make
+          git status -s
