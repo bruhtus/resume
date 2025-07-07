@@ -1,5 +1,8 @@
 name: deploy-release
-on: pull_request
+on:
+  pull_request:
+    tags:
+      - '*'
 
 jobs:
   release:
@@ -14,6 +17,12 @@ jobs:
           sudo apt install -y groff
 
       - name: Build
-        run: |
-          make
-          git status -s
+        run: make
+
+      - name: Release my soul
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./resume.pdf
+          asset_name: resume.pdf
+          body: 'Released!'
