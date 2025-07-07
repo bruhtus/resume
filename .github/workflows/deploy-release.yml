@@ -1,6 +1,6 @@
 name: deploy-release
 on:
-  pull_request:
+  push:
     tags:
       - '*'
 
@@ -13,8 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install groff package
-        run: |
-          sudo apt install -y groff
+        run: sudo apt install -y groff
 
       - name: Build
         run: make
