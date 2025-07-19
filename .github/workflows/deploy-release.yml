@@ -20,10 +20,20 @@ jobs:
       - name: Build
         run: make
 
+      - name: Use changelog.md as release body
+        id: read_changelog
+        shell: bash
+        run: |
+          r=$(cat ./changelog.md)
+          r="${r//'%'/'%25'}"
+          r="${r//$'\n'/'%0A'}"
+          r="${r//$'\r'/'%0D'}"
+          echo "RELEASE_BODY=$r" >> $GITHUB_OUTPUT
+
       - name: Release my soul
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./resume.pdf
           asset_name: resume.pdf
-          body: 'Released!'
+          body: ${{ steps.read_changelog.outputs.RELEASE_BODY }}
