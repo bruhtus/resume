@@ -33,7 +33,7 @@ jobs:
       - name: Use annotated tag message as release notes
         id: release_notes
         run: |
-          echo $GITHUB_REF
+          echo "ref: $GITHUB_REF"
           message="$(git for-each-ref --format='%(contents:body)' $GITHUB_REF)"
           echo "RELEASE_NOTES=$message" >> $GITHUB_OUTPUT
 
