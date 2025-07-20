@@ -20,15 +20,21 @@ jobs:
       - name: Build
         run: make
 
-      - name: Use changelog.md as release body
-        id: read_changelog
-        shell: bash
+      # - name: Use changelog.md as release body
+      #   id: read_changelog
+      #   shell: bash
+      #   run: |
+      #     r=$(cat ./changelog.md)
+      #     r="${r//'%'/'%25'}"
+      #     r="${r//$'\n'/'%0A'}"
+      #     r="${r//$'\r'/'%0D'}"
+      #     echo "RELEASE_BODY=$r" >> $GITHUB_OUTPUT
+
+      - name: Use annotated tag message as release notes
+        id: release_notes
         run: |
-          r=$(cat ./changelog.md)
-          r="${r//'%'/'%25'}"
-          r="${r//$'\n'/'%0A'}"
-          r="${r//$'\r'/'%0D'}"
-          echo "RELEASE_BODY=$r" >> $GITHUB_OUTPUT
+          tag_message="$(git for-each-ref --format='%(contents:body)' $GITHUB_REF)"
+          echo "RELEASE_NOTES=$tag_message" >> $GITHUB_OUTPUT
 
       - name: Release my soul
         uses: svenstaro/upload-release-action@v2
@@ -36,4 +42,4 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./resume.pdf
           asset_name: resume.pdf
-          body: ${{ steps.read_changelog.outputs.RELEASE_BODY }}
+          body: ${{ steps.release_notes.outputs.RELEASE_NOTES }}

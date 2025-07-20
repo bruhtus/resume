@@ -19,3 +19,12 @@ any output, you're good to go. If there's no output, search how to install
 - After everything is installed, run `make`.
 - If there's no error, there should be file named `resume.pdf` which we can
 open using pdf reader.
+
+## Using github release
+
+To put the resume file on github release, we need to create new tag like
+this:
+```sh
+git tag -a v1.0.0
+```
+and then put the some info in the tag description.
