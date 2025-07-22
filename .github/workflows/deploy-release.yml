@@ -20,23 +20,6 @@ jobs:
       - name: Build
         run: make
 
-      # - name: Use changelog.md as release body
-      #   id: read_changelog
-      #   shell: bash
-      #   run: |
-      #     r=$(cat ./changelog.md)
-      #     r="${r//'%'/'%25'}"
-      #     r="${r//$'\n'/'%0A'}"
-      #     r="${r//$'\r'/'%0D'}"
-      #     echo "RELEASE_BODY=$r" >> $GITHUB_OUTPUT
-
-      # - name: Use annotated tag message as release notes
-      #   id: release_notes
-      #   run: |
-      #     echo "ref: $GITHUB_REF"
-      #     echo "ref_type: $GITHUB_REF_TYPE"
-      #     git for-each-ref --format='%(contents:body)' $GITHUB_REF
-
       - name: Upload to github release
         uses: svenstaro/upload-release-action@v2
         with:
