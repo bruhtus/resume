@@ -33,11 +33,9 @@ jobs:
       - name: Use annotated tag message as release notes
         id: release_notes
         run: |
-          message="$(git for-each-ref --format='%(contents:body)' $GITHUB_REF)"
-          echo "RELEASE_NOTES=$message" >> $GITHUB_OUTPUT
+          message="$([ -z $GITHUB_REF ] && echo 'empty' || echo $GITHUB_REF)"
           echo "ref: $GITHUB_REF"
           echo "message: $message"
-          echo "GITHUB_OUTPUT: $GITHUB_OUTPUT"
 
       - name: Release my soul
         uses: svenstaro/upload-release-action@v2
