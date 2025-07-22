@@ -30,17 +30,16 @@ jobs:
       #     r="${r//$'\r'/'%0D'}"
       #     echo "RELEASE_BODY=$r" >> $GITHUB_OUTPUT
 
-      - name: Use annotated tag message as release notes
-        id: release_notes
-        run: |
-          echo "ref: $GITHUB_REF"
-          echo "ref_type: $GITHUB_REF_TYPE"
-          git for-each-ref --format='%(contents:body)' $GITHUB_REF
+      # - name: Use annotated tag message as release notes
+      #   id: release_notes
+      #   run: |
+      #     echo "ref: $GITHUB_REF"
+      #     echo "ref_type: $GITHUB_REF_TYPE"
+      #     git for-each-ref --format='%(contents:body)' $GITHUB_REF
 
-      - name: Release my soul
+      - name: Upload to github release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./resume.pdf
           asset_name: resume.pdf
-          body: ${{ steps.release_notes.outputs.RELEASE_NOTES }}
