@@ -1,0 +1,28 @@
+name: deploy-release
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout current ref
+        uses: actions/checkout@v4
+
+      - name: Install groff package
+        run: sudo apt install -y groff
+
+      - name: Build
+        run: make
+
+      - name: Upload to github release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./resume.pdf
+          asset_name: resume.pdf
