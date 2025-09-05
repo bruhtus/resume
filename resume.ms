@@ -97,12 +97,12 @@
 .section PROJECTS
 .
 .
+.project simo
+.list Simple pomodoro timer CLI for status line.
+.url "Repo: https://github.com/bruhtus/simo" https://github.com/bruhtus/simo
 .project snapshot-script
 .list Simple shell script to make a linux snapsnot using rsync (inspired by timeshift).
 .url "Repo: https://github.com/bruhtus/snapshot-script" https://github.com/bruhtus/snapshot-script
-.project sdfm
-.list Simple dotfiles manager with git working repo.
-.url "Repo: https://github.com/bruhtus/dotfiles/blob/master/.config/zsh/sdfm" https://github.com/bruhtus/dotfiles/blob/master/.config/zsh/sdfm
 .project vim-possession
 .list Vim plugin to manage vim session.
 .url "Repo: https://github.com/bruhtus/vim-possession" https://github.com/bruhtus/vim-possession
