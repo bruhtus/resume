@@ -65,8 +65,10 @@
 .section EXPERIENCE
 .
 .
-.company "Zero One Group" "Nov 2021 - Present"
-.item "Product Engineer 2" "Remote" "Jul 2023 - Present"
+.company "Career Break" "Oct 2025 - Present"
+.list Planning to switch career from web development to low level system development such as linux kernel development or embedded system development.
+.company "Zero One Group" "Nov 2021 - Oct 2025"
+.item "Product Engineer 2" "Remote" "Jul 2023 - Oct 2025"
 .list Contributed simple SQL query composer using golang text template with pgx (golang PostgreSQL driver).
 .url "Blog post: https://bruhtus.github.io/posts/golang-simple-query-composer-with-text-template-and-pgx" https://bruhtus.github.io/posts/golang-simple-query-composer-with-text-template-and-pgx
 .list Contributed fixing data pipeline mechanism for accounting application by correcting parent and child journal relationship when generate new report.
@@ -106,9 +108,6 @@
 .project vim-possession
 .list Vim plugin to manage vim session.
 .url "Repo: https://github.com/bruhtus/vim-possession" https://github.com/bruhtus/vim-possession
-.project pyv
-.list Minimalist python virtual environment management tool.
-.url "Repo: https://github.com/bruhtus/pyv" https://github.com/bruhtus/pyv
 .
 .
 .section EDUCATION
