@@ -77,8 +77,8 @@ after `v` character. Like in release `v1.0.0`, the major release number is `1`.
 release number. The minor release number is the second number after the `v`
 character. Like in release `v1.2.0`, the minor release number is `2`.
 
-- The patch release is for changing the changing the item content,
-such as item description or formatting. For example, in section experience,
-when we edit the description of the role, we can bump the patch
-release number. The patch release number is the third number after the `v`
-character. Like in release `v1.2.3`, the patch release number is `3`.
+- The patch release is for changing the item content, such as item description
+or formatting. For example, in section experience, when we edit the
+description of the role, we can bump the patch release number. The patch
+release number is the third number after the `v` character. Like in release
+`v1.2.3`, the patch release number is `3`.
