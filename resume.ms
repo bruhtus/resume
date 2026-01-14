@@ -92,22 +92,22 @@
 .
 .
 .section SKILLS
-.skill "Programming language" "Golang, Javascript, Typescript."
+.skill "Programming language" "Golang, C, Javascript, Typescript."
 .skill "Tools" "Vim, Shell (Bash, Zsh, Dash), Git, PostgreSQL, Docker, Rsync."
 .
 .
 .section PROJECTS
 .
 .
+.project sclisp
+.list Simple lisp interpreter (based on Build Your Own Lisp book).
+.url "Repo: https://github.com/bruhtus/sclisp" https://github.com/bruhtus/sclisp
 .project simo
 .list Simple pomodoro timer CLI for status line.
 .url "Repo: https://github.com/bruhtus/simo" https://github.com/bruhtus/simo
 .project snapshot-script
 .list Simple shell script to make a linux snapsnot using rsync (inspired by timeshift).
 .url "Repo: https://github.com/bruhtus/snapshot-script" https://github.com/bruhtus/snapshot-script
-.project vim-possession
-.list Vim plugin to manage vim session.
-.url "Repo: https://github.com/bruhtus/vim-possession" https://github.com/bruhtus/vim-possession
 .
 .
 .section EDUCATION
