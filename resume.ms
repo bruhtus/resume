@@ -66,7 +66,7 @@
 .
 .
 .company "Career Break" "Oct 2025 - Present"
-.list Planning to switch career from web development to low level system development such as linux kernel development or embedded system development.
+.list Planning to switch career from web development to low level system development such as kernel development or embedded system development.
 .company "Zero One Group" "Nov 2021 - Oct 2025"
 .item "Product Engineer 2" "Remote" "Jul 2023 - Oct 2025"
 .list Contributed simple SQL query composer using golang text template with pgx (golang PostgreSQL driver).
